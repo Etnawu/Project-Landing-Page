@@ -1,0 +1,101 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 30px 100px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-left: 100px;
+}
+
+.header-links {
+    display: flex;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 32px;
+    align-items: center;
+    margin-right: 100px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.header-body {
+    display: flex;
+    background-color: #1F2937;
+    padding: 60px 200px;
+
+}
+
+.headerbody-left {
+    display:flex;
+    flex-direction: column;
+    flex: 1 1 20em;
+    gap: 12px;
+}
+
+.header-maintext {
+    color: #F9FAF8;
+    display: flex;
+    font-size: 48px;
+}
+
+.header-secondtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+}
+
+button.bread {
+  background: #4169e1;
+  border: 1px solid royalblue;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  align-self: flex-start;
+
+}
+
+button:active {
+    background: #2b4696;
+    -webkit-box-shadow: inset 0px 0px 5px #2b4696;
+       -moz-box-shadow: inset 0px 0px 5px #2b4696;
+            box-shadow: inset 0px 0px 5px #2b4696;
+     outline: none;
+}
+
+.headerbody-right {
+    display: flex;
+    background-color: rgb(125, 125, 134);
+    flex: 1 0 20em;
+    align-items: center;
+    justify-content: center;
+}
+
+.rectangle {
+    color: #F9FAF8;
+    text-align: center;
+}
+
+h1, p{
+    margin: 0;
+}
