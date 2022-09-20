@@ -94,6 +94,7 @@ button.bread:active {
     flex: 1 0 20em;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
 }
 
 .rectangle {
@@ -137,10 +138,30 @@ h1, p{
 }
 
 
-
 img {
     width: 200px;
     height: 200px;
     border-radius: 10px;
     border: 5px solid #3882F6;
+}
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 260px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: light italic;
+    text-align: center;
+    padding-right: 50px;
+}
+
+.quote-guy {
+    text-align: center;
+    padding-left: 120px;
 }
