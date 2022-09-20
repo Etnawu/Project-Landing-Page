@@ -147,16 +147,16 @@ img {
 
 .quote {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     background-color: #E5E7EB;
     flex-direction: column;
-    padding: 260px;
+    padding: 120px 30px;
+    gap: 12px;
 }
 
 .quote-text {
     font-size: 36px;
-    font-style: light italic;
+    font-style: oblique;
     text-align: center;
     padding-right: 50px;
 }
@@ -164,4 +164,47 @@ img {
 .quote-guy {
     text-align: center;
     padding-left: 120px;
+}
+
+.breadsegment {
+    display: flex;
+    justify-content: center;
+    margin: 60px 60px;
+}
+
+.breadbanner {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 32px;
+    flex: 1 1 20em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.breadcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-shrink: 3;
+}
+
+button.bread2 {
+    border: 1px solid #F9FAF8;
+}
+
+.buttoncenter1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer {
+  height: 72px;
+  background: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
