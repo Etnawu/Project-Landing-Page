@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
 
 .header {
     display: flex;
@@ -76,7 +80,7 @@ button.bread {
 
 }
 
-button:active {
+button.bread:active {
     background: #2b4696;
     -webkit-box-shadow: inset 0px 0px 5px #2b4696;
        -moz-box-shadow: inset 0px 0px 5px #2b4696;
@@ -99,4 +103,44 @@ button:active {
 
 h1, p{
     margin: 0;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    flex-direction: column;
+}
+
+.information-title {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    margin-top: 50px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    flex-direction: row;
+    padding: 60px 60px 120px 60px
+}
+
+.infocard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+
+
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 5px solid #3882F6;
 }
